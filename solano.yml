@@ -1,5 +1,5 @@
 nodejs:
-  version: '6.10.3'
+  version: '6.10.0'
 hooks:
   pre_setup: |
     set -e         # Exit on error
