@@ -2,4 +2,4 @@ nodejs:
   version: '6.10.0'
 hooks:
   pre_setup: npm install
-  test: npm test
+test_pattern: 'none'
