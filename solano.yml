@@ -1,7 +1,4 @@
 nodejs:
   version: '6.10.0'
 hooks:
-  pre_setup: |
-    set -e         # Exit on error
-    npm install    # Next command presumes bower is in package.json
-    bower install  # <repo-root>/node_modules/.bin is early in $PATH
+  pre_setup: npm install
